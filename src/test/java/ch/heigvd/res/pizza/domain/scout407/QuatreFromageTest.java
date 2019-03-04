@@ -19,7 +19,7 @@ class QuatreFromageTest {
     }
 
     @Test
-    void aPizzaioloShouldAcceptAnOrderForQuatreFormage() {
+    void aPizzaioloShouldAcceptAnOrderForMargherita() {
         Pizzaiolo mario = new Pizzaiolo();
         String productName = "ch.heigvd.res.pizza.domain.scout407.QuatreFromage";
         int numberOfPizzas = 2;
