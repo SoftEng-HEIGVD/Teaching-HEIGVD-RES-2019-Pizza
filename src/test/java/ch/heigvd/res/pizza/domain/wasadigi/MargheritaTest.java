@@ -28,5 +28,4 @@ class MargheritaTest {
     BigDecimal expectedTotalPrice = Margherita.PRICE.multiply(new BigDecimal(numberOfPizzas));
     assertEquals(expectedTotalPrice, response.getTotalPrice());
   }
-
 }
