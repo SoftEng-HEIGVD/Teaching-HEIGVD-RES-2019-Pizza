@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MargheritaTest {
+class 4FromagesTest {
 
   @Test
   void thePriceAndNameFor4FromagesShouldBeCorrect() {
@@ -19,7 +19,7 @@ class MargheritaTest {
   }
 
   @Test
-  void aPizzaioloShouldAcceptAnOrderForMargherita() {
+  void aPizzaioloShouldAcceptAnOrderFor4Fromages() {
     Pizzaiolo mario = new Pizzaiolo();
     String productName = "ch.heigvd.res.pizza.domain.wasadigi.4Fromages";
     int numberOfPizzas = 2;
